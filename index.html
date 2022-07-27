@@ -299,6 +299,25 @@
                 </li>
                 </ul>
             </div>
+
+            <div clas="sign-up-section">
+                <h3 class="connection-title">Підпишіться на розсилку</h3>
+                <form class="sign-up-form">
+                        <input
+                        type="email"
+                        class="email-field"
+                        name="user-email"
+                        id="user-email"
+                        placeholder="E-mail"
+                        />
+                        <button type="submit" class="sign-up-button">Підписатися
+                        <svg class="icon-sign-up" width="24px" height="24px">
+                            <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                        </svg>
+                        </button>
+                </form>
+            </div>
+            
         </div>
     </footer>
 
@@ -315,7 +334,8 @@
                 <div class="modal-field">
                     <label class="modal-label">Ім'я</label>
                     <div class="input-wrap">
-                        <input type="text"
+                        <input 
+                        type="text"
                         class="modal-input"
                         name="user-name"
                         required
