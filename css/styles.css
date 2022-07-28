@@ -301,14 +301,16 @@ body {
     border: 1px solid rgba(0, 0, 0, 0.1);
     color: var(--black-color);
     background-color: var(--primary-white-color);
+    cursor: pointer;
 }
+
 .close-icon {
     fill: currentColor;
 }
 
-.close-icon:hover,
-.close-icon:focus {
-    fill: var(--accent-color);
+.close-button:hover,
+.close-button:focus {
+    color: var(--accent-color);
 }
 
 .modal-title {
@@ -327,6 +329,7 @@ body {
 
 .modal-label {
     display: block;
+    margin-bottom: 4px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;
@@ -453,11 +456,10 @@ body {
     background-color: #188CE8;
     border-radius: 4px;
     border: 1px solid transparent;
-
-    cursor: pointer;
-
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    cursor: pointer;
 }
 
 .modal-button:hover,
@@ -926,6 +928,7 @@ body {
     padding-left: 16px;
     padding-top: 15px;
     padding-bottom: 15px;
+    color: var(--primary-white-color);
 }
 
 .email-field:focus {
